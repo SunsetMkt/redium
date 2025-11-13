@@ -20,7 +20,6 @@
   "host_permissions": ["*://*.medium.com/*"],
   "permissions": [
     "activeTab",
-    "contentSettings",
     "contextMenus",
     "management",
     "storage"

@@ -17,9 +17,6 @@ chrome.runtime.onInstalled.addListener(async ({ reason }) => {
   if (reason === "update") {
     await chrome.storage.local.remove("selected_proxy");
     selectedService = defaultValue.selected_proxy;
-
-    // TODO: Remove the contentSettings permission on the next update
-    await chrome.contentSettings.javascript.clear({});
   }
 
   chrome.contextMenus.removeAll();
