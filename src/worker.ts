@@ -1,7 +1,6 @@
-type ProxyService = "ReadMedium" | "Freedium" | "Archive.today";
+type ProxyService = "Freedium" | "Archive.today";
 
 const domain: Readonly<Record<ProxyService, string>> = {
-  ReadMedium: "readmedium.com",
   Freedium: "freedium.cfd",
   "Archive.today": "archive.today",
 };
@@ -16,7 +15,6 @@ chrome.runtime.onInstalled.addListener(async ({ reason }) => {
 
   if (reason === "update") {
     await chrome.storage.local.remove("selected_proxy");
-    selectedService = defaultValue.selected_proxy;
   }
 
   chrome.contextMenus.removeAll();
@@ -126,9 +124,6 @@ async function selectRedirectUrl(tabUrl: URL): Promise<string> {
   if (tabUrl.hostname.includes(serviceDomain)) return tabUrl.href;
 
   switch (selectedService) {
-    case "ReadMedium":
-      return `https://${serviceDomain}/en/${tabUrl.href}`;
-
     case "Archive.today": {
       return `https://${serviceDomain}?url=${tabUrl.href}&run=1`;
     }
@@ -146,7 +141,7 @@ type LocalKv = {
 };
 
 const defaultValue: Readonly<LocalKv> = {
-  selected_proxy: "ReadMedium",
+  selected_proxy: "Freedium",
   should_redirect: true,
 };
 
