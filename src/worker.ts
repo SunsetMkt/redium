@@ -1,7 +1,7 @@
 type ProxyService = "Freedium" | "Archive.today";
 
 const domain: Readonly<Record<ProxyService, string>> = {
-  Freedium: "freedium.cfd",
+  Freedium: "freedium-mirror.cfd", // https://codeberg.org/Freedium-cfd/web
   "Archive.today": "archive.today",
 };
 
