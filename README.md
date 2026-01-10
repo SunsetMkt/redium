@@ -22,9 +22,14 @@
 
 ## Changelog
 
+### v3.2
+
+- Update Freedium domain
+- Removed broken ReadMedium service
+
 ### v3.0
 
-- Remove proxy services that no longer works
+- Removed proxy services that no longer works
 - Added ReadMedium, Freedium, and Archive.today
 
 ### v2.0

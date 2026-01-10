@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Redium",
-  "version": "3.0",
+  "version": "3.2",
   "description": "Redirect medium articles to proxies.",
   "icons": {
     "16": "assets/icon16.png",
