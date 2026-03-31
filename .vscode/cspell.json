@@ -1,4 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
-  "words": ["Freedium", "outdir", "readmedium", "Redium"]
+  "words": [
+    "anissan",
+    "Freedium",
+    "outdir",
+    "readmedium",
+    "Redium"
+  ]
 }

@@ -6,7 +6,7 @@
 <div align="center"><img alt="Redium Banner" src="./.doc/marquee.png" width="600px" /></div>
 <br />
 
-<p align="center">Automatically unblock medium articles through proxies such as <a href="https://readmedium.com">ReadMedium</a>, <a href="https://freedium.cfd">Freedium</a>, and <a href="https://archive.today">Archive.today</a>.</p>
+<p align="center">Automatically unblock medium articles through proxies such as <a href="https://codeberg.org/Freedium-cfd/web">Freedium</a> and <a href="https://archive.today">Archive.today</a>.</p>
 
 > [!TIP]
 > Click the extension icon or press `Alt + R` to redirect manually.
@@ -45,7 +45,7 @@
 
 ## Information
 
-**Author:** [Nissan Ahmed](https://anissan.com) ([@ni554n](https://twitter.com/ni554n))
+**Author:** Nissan Ahmed ([@ni554n](https://x.com/ni554n))
 
-**Donate:** [PayPal](https://paypal.me/ni554n)
+**Website:** [anissan.com](https://anissan.com)
 <img alt="Hit Counter" src="https://ping.anissan.com/?repo=redium" width="0" height="0" align="right" aria-hidden="true">
